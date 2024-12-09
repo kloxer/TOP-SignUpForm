@@ -1,0 +1,76 @@
+
+@font-face {
+    font-family: 'norsebold';
+    src: url('fonts/norse-bold-webfont.woff2') format('woff2'),
+         url('fonts/norse-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden; /* Prevent overflow */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+
+body{
+    display: flex;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#leftSide{
+    width:39%;
+    background-color: rgb(0, 255, 60);
+}
+
+#plants{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#rightSide{
+    background-color: rgb(240, 240, 240);
+    flex:1;
+
+}
+
+.topInfo{
+    padding: 60px 50px 20px 30px;
+}
+
+h2{
+    color:rgb(32, 32, 32);
+    font-size: 17px;
+}
+
+.insideForm{
+    background-color: white;
+    padding: 1px 40px 20px 30px;
+}
+
+.columns{
+    display: flex;
+    font-size: 10px;
+    gap:35px;
+}
+.leftColumn{
+    display:flex;
+    flex-direction: column;
+}
+
+.rightColumn{
+    display: flex;
+    flex-direction: column;
+}
+
+button[id="createAccount"]{
+    color:white;
+    background-color: green;
+}

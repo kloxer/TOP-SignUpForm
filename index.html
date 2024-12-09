@@ -3,9 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign up for my website</title>
+    <title>Sign up for my website </title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div id="leftSide">
+       <img id="plants" src="images/halie-west-25xggax4bSA-unsplash.jpg" alt="">     
     
+    
+    </div>
+    <div id="rightSide">
+
+        <div class="topInfo">
+            <h2>This is not a real online service! You need something like this in your life to help realize your deepest dreams. Sign up now to get started.
+            </h2>
+            <h2> You know you want to.</h2>
+        </div>
+
+        <form action="">
+            <div class="insideForm">
+                <div class="formIntro">
+                    <h2>Let's do this!</h2>
+                </div>
+                
+                <div class="columns">
+                    <div class="leftColumn">
+                        <label for="firstName">FIRST NAME</label><input type="text" required>
+                        <label for="lastName">EMAIL</label><input type="email">
+                        <label for="password" >PASSWORD</label><input type="password" required>
+                    </div>
+                
+                    <div class="rightColumn">
+                        <label for="lastName">LAST NAME</label><input type="text" name="lastName">
+                        <label for="phoneNumber">PHONE NUMBER</label><input type="number">
+                        <label for="confirmPWD">CONFIRM PASSWORD</label><input type="password" name="password" id="" required>
+                    </div>
+                </div>
+            </div>
+   
+            <button type="submit" id="createAccount">CREATE ACCOUNT</button>
+
+
+        </form>
+
+        <p class="logInText">Already have an account? <span id="logIn">Log in </span></p>
+    </div>
 </body>
 </html>
