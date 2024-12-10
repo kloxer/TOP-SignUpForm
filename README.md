@@ -1,10 +1,13 @@
+## Live Demo
+
+You can view the live version of this project [here](https://kloxer.github.io/TOP-SignUpForm/).
+
 # Sign-Up Form Project
 
 This repository contains the **Sign-Up Form** project from [The Odin Project's Intermediate HTML and CSS Curriculum](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form). The goal of this project is to practice creating a functional and visually appealing sign-up form using intermediate HTML and CSS techniques.
 
 ## Features
 
-- Responsive design to ensure usability across various screen sizes.
 - Validation for user inputs to improve form reliability and user experience.
 - Styled with modern CSS to create an aesthetically pleasing layout.
 - Focus on semantic HTML for better accessibility and SEO.
@@ -21,17 +24,10 @@ This repository contains the **Sign-Up Form** project from [The Odin Project's I
 - Use a responsive design that adapts to different devices and screen sizes.
 - Style the form with CSS, focusing on user-friendly design.
 
-## Screenshots
-
-
-## Live Demo
-
-You can view the live version of this project [here](#).
-
 ## How to Run the Project Locally
 
 1. Clone this repository to your local machine:
-   git clone [https://github.com/your-username/sign-up-form.git](https://github.com/kloxer/TOP-SignUpForm.git)
+   git clone [https://github.com/kloxer/TOP-SignUpForm.git](https://github.com/kloxer/TOP-SignUpForm.git)
 
 2. Navigate to the project directory:
   cd sign-up-form
@@ -41,6 +37,4 @@ You can view the live version of this project [here](#).
 ## Lessons Learned
 - How to create forms with semantic HTML elements.
 - Effective styling techniques for form elements using CSS.
-- Importance of responsive design for cross-device usability.
 - Basics of form validation to enhance the user experience.
-   
