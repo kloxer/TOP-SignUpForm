@@ -31,7 +31,7 @@ You can view the live version of this project [here](#).
 ## How to Run the Project Locally
 
 1. Clone this repository to your local machine:
-   git clone https://github.com/your-username/sign-up-form.git
+   git clone [https://github.com/your-username/sign-up-form.git](https://github.com/kloxer/TOP-SignUpForm.git)
 
 2. Navigate to the project directory:
   cd sign-up-form
